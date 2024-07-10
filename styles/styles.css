@@ -17,6 +17,13 @@
     padding: 21px 18px 21px 18px;
     border-radius: 10px;
     border: 1px solid #6e6e6e;
+    
+}
+a {
+    text-decoration: none;
+}
+#footer :hover{
+   cursor:pointer;
 }
 
 /* banner styles */
@@ -151,18 +158,21 @@ iframe {
     padding: 40px 55px;
     line-height: 10px;
     color: black;
+    border-radius: 16px;
 }
 .skills-container-2 {
     background: rgba(0, 76, 232, 0.05);
     padding: 40px 55px;
     line-height: 10px;
     color: black;
+    border-radius: 16px;
 }
 .skills-container-3 {
     background: rgba(255, 223, 0, 0.05);
     padding: 40px 55px;
     line-height: 10px;
     color: black;
+    border-radius: 16px;
 }
 .skills a {
     color: black;
@@ -183,7 +193,9 @@ iframe {
     position: relative;
     margin-top: 150px;
 }
-
+img {
+    border-radius: 16px;
+}
 .title-4 {
     position: absolute;
     text-align: center;
@@ -213,4 +225,25 @@ iframe {
     background: white;
     color: #0D1321;
     border-radius: 8px;
+    
+}
+/* footer-section */
+.foot{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #0D132108;
+}
+.footer-cmt {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 5%;
+}
+.icons {
+    padding-top: 10px;
+}
+.github {
+    padding-right: 15px;
+    padding-left: 15px;
 }
