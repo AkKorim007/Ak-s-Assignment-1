@@ -53,3 +53,61 @@
     border-radius: 10px;
     border: 1px solid #6e6e6e;
 }
+/* devoloper styles */
+.dev-container {
+    margin: 100px 350px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.devoloper-content{
+    margin-top: 155px;
+    margin-bottom: 85px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 26px;
+}
+.devoloper-container{
+    display: flex;
+    justify-content: center;
+    gap: 18%;
+    margin-bottom: 128px;
+    margin-top: 10%;
+}
+.title-1 {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(13, 19, 33, 0.7);
+}
+.title-2 {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 35px;
+}
+input.btn-3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    background: white;
+    color: rgba(13, 19, 33, 0.7);
+}
+.devoloper-container2 {
+    display: flex;
+    justify-content: center;
+}
+.text2 {
+    float: right;
+    padding-left: 115px;
+    margin-bottom: 38px;
+}
+.container1 {
+    margin: 0 15%;
+    background: white;
+}
+.container2 {
+    margin: 0 15%;
+    background: white;
+}
